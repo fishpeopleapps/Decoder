@@ -11,6 +11,15 @@
 		DF3E35F72B031C36006EEEF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3E35F62B031C36006EEEF6 /* ContentView.swift */; };
 		DF3E35F92B031C37006EEEF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3E35F82B031C37006EEEF6 /* Assets.xcassets */; };
 		DF3E35FC2B031C37006EEEF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3E35FB2B031C37006EEEF6 /* Preview Assets.xcassets */; };
+		DF5A22E52B0CE3A600022982 /* ColumnarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A22E42B0CE3A600022982 /* ColumnarView.swift */; };
+		DF5A22E82B0CE5DC00022982 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = DF5A22E72B0CE5DC00022982 /* Algorithms */; };
+		DF5A22EA2B0CE87E00022982 /* ShiftAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5A22E92B0CE87E00022982 /* ShiftAmount.swift */; };
+		DFA5D9B22B17CE9E00A9F587 /* VigenereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA5D9B12B17CE9E00A9F587 /* VigenereView.swift */; };
+		DFA5D9B42B17D4C800A9F587 /* DistancesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA5D9B32B17D4C800A9F587 /* DistancesView.swift */; };
+		DFA5D9B62B17D6B800A9F587 /* PairCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA5D9B52B17D6B800A9F587 /* PairCounter.swift */; };
+		DFA5D9C92B1BFE9900A9F587 /* FrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA5D9C82B1BFE9900A9F587 /* FrequencyView.swift */; };
+		DFE16E172B0B948C0028CF88 /* CeasarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE16E162B0B948C0028CF88 /* CeasarView.swift */; };
+		DFE16E192B0B99700028CF88 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFE16E182B0B99700028CF88 /* Shared.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,14 @@
 		DF3E35F82B031C37006EEEF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF3E35FB2B031C37006EEEF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DF3E35FD2B031C37006EEEF6 /* Decode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Decode.entitlements; sourceTree = "<group>"; };
+		DF5A22E42B0CE3A600022982 /* ColumnarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColumnarView.swift; sourceTree = "<group>"; };
+		DF5A22E92B0CE87E00022982 /* ShiftAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShiftAmount.swift; sourceTree = "<group>"; };
+		DFA5D9B12B17CE9E00A9F587 /* VigenereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VigenereView.swift; sourceTree = "<group>"; };
+		DFA5D9B32B17D4C800A9F587 /* DistancesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistancesView.swift; sourceTree = "<group>"; };
+		DFA5D9B52B17D6B800A9F587 /* PairCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairCounter.swift; sourceTree = "<group>"; };
+		DFA5D9C82B1BFE9900A9F587 /* FrequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyView.swift; sourceTree = "<group>"; };
+		DFE16E162B0B948C0028CF88 /* CeasarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeasarView.swift; sourceTree = "<group>"; };
+		DFE16E182B0B99700028CF88 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5A22E82B0CE5DC00022982 /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +72,14 @@
 			children = (
 				DF3E35F42B031C36006EEEF6 /* DecodeApp.swift */,
 				DF3E35F62B031C36006EEEF6 /* ContentView.swift */,
+				DFE16E182B0B99700028CF88 /* Shared.swift */,
+				DFA5D9C82B1BFE9900A9F587 /* FrequencyView.swift */,
+				DFE16E162B0B948C0028CF88 /* CeasarView.swift */,
+				DFA5D9B52B17D6B800A9F587 /* PairCounter.swift */,
+				DFA5D9B32B17D4C800A9F587 /* DistancesView.swift */,
+				DF5A22E42B0CE3A600022982 /* ColumnarView.swift */,
+				DFA5D9B12B17CE9E00A9F587 /* VigenereView.swift */,
+				DF5A22E92B0CE87E00022982 /* ShiftAmount.swift */,
 				DF3E35F82B031C37006EEEF6 /* Assets.xcassets */,
 				DF3E35FD2B031C37006EEEF6 /* Decode.entitlements */,
 				DF3E35FA2B031C37006EEEF6 /* Preview Content */,
@@ -79,12 +105,16 @@
 				DF3E35ED2B031C36006EEEF6 /* Sources */,
 				DF3E35EE2B031C36006EEEF6 /* Frameworks */,
 				DF3E35EF2B031C36006EEEF6 /* Resources */,
+				DFA5D9C72B18EA7300A9F587 /* SwiftLint */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Decode;
+			packageProductDependencies = (
+				DF5A22E72B0CE5DC00022982 /* Algorithms */,
+			);
 			productName = Decode;
 			productReference = DF3E35F12B031C36006EEEF6 /* Decode.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +143,9 @@
 				Base,
 			);
 			mainGroup = DF3E35E82B031C36006EEEF6;
+			packageReferences = (
+				DF5A22E62B0CE5DC00022982 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = DF3E35F22B031C36006EEEF6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -134,13 +167,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DFA5D9C72B18EA7300A9F587 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF3E35ED2B031C36006EEEF6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA5D9B22B17CE9E00A9F587 /* VigenereView.swift in Sources */,
 				DF3E35F72B031C36006EEEF6 /* ContentView.swift in Sources */,
 				DF3E35F52B031C36006EEEF6 /* DecodeApp.swift in Sources */,
+				DFA5D9C92B1BFE9900A9F587 /* FrequencyView.swift in Sources */,
+				DFE16E192B0B99700028CF88 /* Shared.swift in Sources */,
+				DFE16E172B0B948C0028CF88 /* CeasarView.swift in Sources */,
+				DF5A22EA2B0CE87E00022982 /* ShiftAmount.swift in Sources */,
+				DF5A22E52B0CE3A600022982 /* ColumnarView.swift in Sources */,
+				DFA5D9B62B17D6B800A9F587 /* PairCounter.swift in Sources */,
+				DFA5D9B42B17D4C800A9F587 /* DistancesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,7 +247,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -247,7 +310,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -341,6 +404,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF5A22E62B0CE5DC00022982 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF5A22E72B0CE5DC00022982 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF5A22E62B0CE5DC00022982 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF3E35E92B031C36006EEEF6 /* Project object */;
 }
